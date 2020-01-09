@@ -1,0 +1,57 @@
+html{
+    background-color: aqua;
+}
+
+#menu {
+    margin:0px;
+    padding:0px;
+    }
+    
+    #menu li {
+    float:left;
+    list-style-type:none;
+    }
+
+    .upload-box {
+        position: relative;
+      }
+      
+      button {
+        width: 100px;
+        height: 100px;
+        border: none;
+        background-color: #1C90F3;
+        color: #ffffff;
+      }
+      
+      input[type=file] {
+        height: 0px;
+        visibility: hidden;
+        position: absolute;
+      }
+
+      #preview img{
+        width: 100px;
+      }
+
+      .parent {
+        width: 100%;
+        display: flex;
+       }
+       .child {
+        width: 400px;
+       }
+       
+       .picture {
+            font-size: 40px;
+            color: fuchsia;
+       }
+
+       .movie {
+        font-size: 40px;
+        color: tomato;
+   }
+   .before {
+    font-size: 40px;
+    color: slategray;
+}
